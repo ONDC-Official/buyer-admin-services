@@ -1,0 +1,25 @@
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%; /* Adjust the width as needed */
+    background-color: white;
+    z-index: 9999;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+  }
+
+  .content {
+    padding-right: "2rem";
+    margin: 20px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .ant-modal-content {
+    height: 100%;
+
+    background-color: aqua;
+  }

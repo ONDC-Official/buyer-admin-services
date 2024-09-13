@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo > img {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.company-name {
+    color: white;
+    font-size: x-large;
+}
+
+.layout {
+    max-height: 100vh !important;
+}
+
+.site-layout-content {
+
+  padding: 24px;
+  background: #fff;
+  overflow-y: scroll;
+  height: 87vh;
+}
+
+.footer {
+    height: 5vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout2 {
+  height: 87vh;
+}
+
+/* .header {
+  height: 7vh !important;
+  color: '#fff' !important;
+} */
+
+  .ant-menu-item {
+  color: 'black' !important;
+}
+
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-menu-inline > .ant-menu-submenu > .ant-menu {
+  color: #183a7b;
+  background: rgb(194 222 251);
+}
+
+/*
+.ant-menu-inline > .ant-menu-item {
+  color: '#183a7b  !important';
+  background: 'rgb(194 222 251)  !important';
+} */
+
+@media (max-width: 600px) {
+    .header {
+        padding: 0 5px !important;
+    }
+
+    .logo > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .company-name {
+        font-size: x-large;
+    }
+}

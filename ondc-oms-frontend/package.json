@@ -1,0 +1,35 @@
+{
+  "name": "ONDC OMS",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.21.3",
+    "axios": "^0.27.2",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2",
+    "next": "12.1.6",
+    "next-plugin-antd-less": "^1.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-uuid": "^2.0.0",
+    "reactflow": "^11.7.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-import": "^1.13.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.3.2",
+    "use-resize-observer": "^9.1.0"
+  }
+}
